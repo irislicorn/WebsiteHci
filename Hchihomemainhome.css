@@ -1,0 +1,152 @@
+html {
+	box-sizing: border-box;
+  background-color: black;
+  size: auto;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	
+  font-family: avenir, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1,5em;
+  text-align: center;
+
+  font-family: avenir, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  color:white;
+}
+
+
+h2, h3 {
+  font-size: 1em;
+  font-weight: normal;
+  color:white;
+
+  padding: 0.4em;
+  border-radius: 0.2em;
+  font-family: arial,avenir;
+  text-shadow: 1px 1px 1px #000;
+
+}
+h3 {
+  font-size: 0.8em;
+ 
+}
+
+.ad2{
+  background: url(me2.png) no-repeat center;
+}
+
+.header, .main, .ad1, .ad2, .foot{
+  padding: 0.2em 1em;
+}
+
+.header {
+  background-color:#black;
+
+    
+}
+#menu {
+background-color: black;
+    
+}
+
+main {
+  color:white;
+}
+
+b {
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+
+footer {
+  background-color:black;
+  color:white;
+
+}
+
+.triggerblok {
+  font-size: 20px;
+  text-decoration: none;}
+
+  .section a{
+     color:#ce202a;
+     text-decoration: none;
+  }
+
+
+.triggerblok a:hover{
+  background-color: #ce202a;
+  color: white;
+  
+}
+
+.triggerblok a{
+ 
+  color: #ce202a;
+  text-decoration: none;
+  
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color:black;
+}
+
+nav ul li:hover {
+  background-color: white;
+  color:black;
+}
+
+
+
+@media only screen and (min-width: 601px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.3em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color:#ce202a;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.3em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color:#607994;
+    
+ 
+}
+}
